@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    text-align: left;
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(dinus.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu{
+    color: cornsilk;
+    margin:0; 
+    padding:0;
+}
+
+.menu{
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial
+    
+}
+.menu ul{
+    background:#37988e;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+.menu ul li{
+    float:left;
+}
+.menu ul li:hover a{
+    color:#000;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.profile{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 99em;border: 0px; box-shadow: 0px 0px 0px 5px rgb(204, 204, 204); padding: 0px;
+}
+.profile__image {
+    border-radius: 50%;
+    height:190px;
+    width: 190px;
+    padding: 50;
+    margin-bottom: auto;
+}

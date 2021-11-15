@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   </head> 
+   <img src="logo udinus.png" style="display: block; margin: auto; right: 600px;"><br>
+   <br>
+   <body background="dinus.jpg">
+    <div class="contact-title">
+        <h1>FORMULIR PPDB JALUR ZONASI TAHUM 2022</h1>
+    </div class="contact-form">
+    <fieldset>
+        <legend class="garis">
+            form
+        </legend>
+    <form id="contact-form" method="post" action="form.handler.php" enctype="multipart/form-data">
+        <h2 style="font-family: 'Times New Roman', Times, serif; color: #fff;">Info data diri</h2>
+        <input name="NISN" type="text" class="form-control" placeholder="NISN" required>
+        <br>
+        <input name="Asal Sekolah" type="text" class="form-control" placeholder="Asal sekolah" required>
+        <br>
+        <label style="color: #fff; font-family: 'Times New Roman', Times, serif;" align="center" for="ijazah" name="ijazah"> Lampirkan ijazah: </label>
+        <input id="ijazah" name="Tahun Lulus" type="file" class="form-control" placeholder="Lampirkan Ijazah" required>
+        <br>
+        <h1 class="data">DATA CALON PESERTA </h1>
+        <input name="Nama Lengkap" type="text" class="form-control" placeholder="Nama Lengkap" required>
+        <br>
+        <input name="NIK" type="text" class="form-control" placeholder="NIK" required>
+        <br>
+        <p style="color: #fff;">tanggal lahir</p>
+        <input name="Tgl_Lahir" type="date" class="form-control" placeholder="Tanggal lahir" required>
+        <br>
+        <label style="color: #fff; font-family: 'Times New Roman', Times, serif;" align="center" for="akte" name="akte"> Lampirkan akte: </label>
+        <input align="center" id="akte" name="Tahun Lulus" type="file" class="form-control" placeholder="Lampirkan Ijazah" required>      
+        <br>
+        <label style="color: #fff; font-family: 'Times New Roman', Times, serif;" align="center" for="gender" name="gender">pilih jenis kelamin</label>
+        <select id="gender" name="Jenis kelamin">
+        <option value="none">-plih jenis kelamin</option>
+        <option value="laki-laki">laki-laki</option>
+        <option value="perempuani">perempuani</option>
+        </select><br>
+        <br>
+            <textarea name="Alamat Tempat Tingal" class="form-control" placeholder="Alamat Tempat Tinggal" row="4" required></textarea> <br>
+            <input name="Desa/kelurahan" type="text" class="form-control" placeholder="Desa/Kelurahan :" required>
+            <br>
+            <input name="kecamatan" type="text" class="form-control" placeholder="kecamatan" required>
+            <br>
+            <input name="kabupaten" type="text" class="form-control" placeholder="Kabupaten" required>
+            <br>
+            <input name="provinsi" type="text" class="form-control" placeholder="Provinsi" required>
+            <br>
+            <input name="email" type="text" class="form-control" placeholder="Emai aktif" required>
+            <br>
+            <input type="sumbit" class="form-control sumbit" value="send message"> 
+        </fieldset>
+    </form>
+
+
+
+
+   </body>
+</html>
