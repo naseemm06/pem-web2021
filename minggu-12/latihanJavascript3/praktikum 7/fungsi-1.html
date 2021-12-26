@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            // membuat fungsi
+            var sayHello = () => alert("Hello World!");
+
+            function kali (a,b){
+                hasilKali = a *b;
+                console.log("Hasil kali a*b = " + hasilKali);
+                document.write(hasilKali);
+            }
+
+            function bagi(a,b){
+                hasilBagi = a / b;
+                return hasilBagi;
+            }
+            var nilai1 = 20;
+            var nilai2 = 5;
+            var hasilPembagian = bagi(nilai1, nilai2);
+        </script>
+    </head>
+    <body>
+        <!-- Memanggil fungsi saat link diklik -->
+        <a href="#" onclick="sayHello()">Klik Aku!</a>
+    </body>
+</html>

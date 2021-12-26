@@ -1,0 +1,23 @@
+div{
+    background-color: gold;
+    width: 300px;
+    /*lebar*/
+    padding: 25px;
+    /* ruang antara konten dan border */
+    border: 25px solid navy;
+    /* garis antara padding dan margin - ukuran style - color */
+    margin: 25px;
+}
+.pc{
+    border-style: dotted;
+    text-align: center;
+    background-color: pink;
+}
+#pid{
+    border-style: dotted dashed solid double;
+    /*atas bawah kanan kiri*/
+    color: red;
+}
+h2,p{
+    text-align: center;
+}
